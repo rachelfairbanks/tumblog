@@ -1,0 +1,20 @@
+body {
+	padding-top: 50px;
+}
+p {
+	text-align: center;
+}
+
+.logo {
+	margin: 0 auto;
+	font-family: Oswald, sans-serif;
+	font-size: 30px;
+	color: violet;
+	width: 250px;
+	height: 100px;
+	border: 10px;
+	-webkit-border-image: -webkit-linear-gradient(315deg, lightpink, violet, lightskyblue, lightsalmon);
+	-moz-border-image: -moz-linear-gradient(315deg, lightpink, violet, lightskyblue, lightsalmon);
+	border-image: linear-gradient(-225deg, lightpink, violet, lightskyblue, lightsalmon); 
+	border-image-slice: 1;
+} 
